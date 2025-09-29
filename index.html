@@ -1,0 +1,440 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>ALL LINK DOCS</title>
+    <!-- <link rel="stylesheet" type="text/css" href="E:\3_restorent.css"> -->
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+ /* header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  transition: top 0.5s ease-in-out;
+} */
+
+.header1 {
+    background-color: #2c3e50; /* Darker background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   transition: top 0.5s ease-in-out;
+}
+
+.header1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.header1 h1:hover{
+  color: #ffcc00;
+}
+h4{
+  font-size: 40px;
+  color: red;
+}
+h4:hover{
+  color: blue;
+}
+
+.box {
+    background-color: white;
+    margin: 20px auto; /* Center the box */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit box width */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3498db; /* Blue link color */
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.About {
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+}
+
+.h11 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    margin-top: 20px;
+}
+
+.myimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.box3 {
+    margin-top: 20px;
+}
+
+.box3 h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.b1 {
+    margin-top: 30px;
+}
+
+.foodimg1 {
+    width: 100%; /* Make image responsive */
+    max-width: 500px; /* Limit image width */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.b2 {
+    margin-top: 20px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header1 h1 {
+        font-size: 2em;
+    }
+    nav ul li {
+        display: block; /* Stack links on smaller screens */
+        margin: 10px 0;
+    }
+    nav ul li a {
+        display: block; /* Full width links */
+        width: 100%;
+        text-align: center;
+    }
+}
+.menudiv {
+    border: spx solid red;
+    background-color: bisque;
+}
+
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+    border: 5px solid red;
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(163, 160, 160);
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.button {
+    color: hsla(246, 97%, 15%, 0.968);
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(243, 208, 154);
+     box-shadow:3px 3px 5px rgb(250, 208, 38), -3px -3px 5px rgb(63, 245, 46);
+}
+
+.button:hover {
+    size: 10px;
+    cursor: pointer;
+    height: 40px;
+    color: red;
+    font-weight: bolder;
+    background-color: yellow;
+    box-shadow: 3px 3px 5px red, -3px -3px 5px blue;
+    transition: 10s;
+    transform: rotate(360deg);
+    animation-delay: 1s;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    color: #8e0000fa;
+}
+
+.main-footer {
+  background-color: #222;
+  color: #eee;
+  padding: 40px 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  padding: 10px 20px;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ffcc00;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 10px 0;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-column p {
+  line-height: 1.6;
+}
+
+.social-icons a img {
+  width: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+    </style>
+</head>
+<body>
+ 
+   
+    <header class="header1">
+        <h1>WELCOME TO MY ALL DOCUMENT LINK LIST  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATED BY-SUMIT KUMAR</h1>
+    </header>
+   
+   
+    <div class="menudiv">
+        <div class="menu">
+
+          <div class="menu-item">
+                <img src="C:\Users\HP\OneDrive\Desktop\SUMIT PHOTO.jpg" > <h3>CLICK HERE TO KNOW MY STATUS👎</h3>
+                <a href="E:\index\aboutme.html" target="_blank"> <button class="button">CLICK TO KNOW </button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\HP\OneDrive\Desktop\SUMIT PHOTO.jpg" > <h3>CLICK HERE TO CONTACT WITH ME👎</h3>
+                <a href="E:\index\contactpage.html" target="_blank"> <button class="button">CONTACT ME</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+             <div class="menu-item">
+                <img src="C:\Users\HP\OneDrive\Desktop\SUMIT PHOTO.jpg" > <h3>CLICK HERE TO KNOW MY STATUS👎</h3>
+                <a href="E:\index\contactpage.html" target="_blank"> <button class="button">CHECK Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+
+            <h4>CHOOSE ANY LINK TO HELP IN YOUR WORK PURPOSE</h4>
+
+             
+             <br>
+             <h1>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ RTPS SECTOR ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</h1>
+             <br>
+
+             <div class="menu-item">
+                <img src="E:\index\niwaspoto.jpg" alt="apply to niwas online"> <h3>CLICK HERE TO APPLY NIWAS PRAMAN PATRA👎</h3>
+                <a href="https://serviceonline.bihar.gov.in/renderApplicationForm.do?serviceId=4630009&UUID=a6c1ae55-e5a2-4618-89bc-5e205c227270&directService=true&tempId=751&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=LLWY-2KV6-2JUS-NRRF-IYC1-BHFN-G2JB-XZ7R" target="_blank"> <button class="button">APPLY Now</button></a>
+                <p>LINKED BY SUMIT KUMAR.</p>
+            </div>
+
+             <div class="menu-item">
+                <img src="E:\index\niwaspoto.jpg" alt="apply to jati online"> <h3>CLICK HERE TO APPLY JATI PRAMAN PATRA👎</h3>
+                <a href="https://serviceonline.bihar.gov.in/renderApplicationForm.do?serviceId=4650009&UUID=c94005cf-c275-47f3-813c-64d8258ddb2b&directService=true&tempId=748&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=OZNZ-QVAU-2VN0-D35N-HN66-PSS3-Y9QJ-3LA8 " target="_blank"> <button class="button">APPLY  Now</button></a>
+                <p>LINKED BY SUMIT KUMAR.</p>
+            </div>
+
+             <div class="menu-item">
+                <img src="E:\index\niwaspoto.jpg" alt="apply to aay online"> <h3>CLICK HERE TO APPLY AAY  PRAMAN PATRA👎</h3>
+                <a href="https://serviceonline.bihar.gov.in/renderApplicationForm.do?serviceId=4640008&UUID=9d425871-1ba3-4101-a532-289e65e9c634&directService=true&tempId=747&grievDefined=0&serviceLinkRequired=No&userLoggedIn=N&source=CTZN&OWASP_CSRFTOKEN=VSCR-PWSS-YCCN-01P1-A2KB-YTCK-QUBM-3E2T" target="_blank"> <button class="button">APPLY Now</button></a>
+                <p>LINKED BY SUMIT KUMAR.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="E:\index\niwaspoto.jpg" alt="JATI ,AAY ,NIWAS"><h3>CLICK HERE TO DOWNLOAD JATI AAY AND NIWAS👎</h3>
+                <a href="https://swcs.bihar.gov.in/RtpsReportView/certificate_download.jsp" target="_blank"> <button class="button">DOWNLOAD  Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+            <br>
+            <h1>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ADHAR SECTOR❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</h1>
+            <br>
+
+            <div class="menu-item">
+                <img src="E:\index\512x512bb.jpg" alt=" Adhar DOWNLOAD "> <h3>CLICK HERE TO DOWNLOAD ADHAR👎</h3>
+                <a href="https://myaadhaar.uidai.gov.in/genricDownloadAadhaar/en" target="_blank"> <button class="button">DOWNLOAD Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+              <div class="menu-item">
+                <img src="E:\index\512x512bb.jpg" alt="VERIFY MOBILE OR EMAIL"> <h3>CLICK HERE TO VERIFY MOBILE AND EMAIL TO ADHAR👎</h3>
+                <a href="https://myaadhaar.uidai.gov.in/verify-email-mobile/en" target="_blank"> <button class="button">VERIFY Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+             <div class="menu-item">
+                <img src="E:\index\512x512bb.jpg"> <h3>CLICK HERE TO CHECK  ADHAR SESDING STATUS👎</h3>
+                <a href="https://tathya.uidai.gov.in/access/login?role=resident" target="_blank"> <button class="button">CHECK SEEDING Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+             <div class="menu-item">
+                <img src="E:\index\512x512bb.jpg" > <h3>CLICK HERE TO CHECK-AADHAAR-VALIDITY 👎</h3>
+                <a href="https://myaadhaar.uidai.gov.in/check-aadhaar-validity/en" target="_blank"> <button class="button">CHECK ADHAR-VALIDITY Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+
+             <div class="menu-item">
+                <img src="E:\index\512x512bb.jpg" > <h3>CLICK HERE TO CHECK ADHAR ENROLMENT OR UPDATE STATUS👎</h3>
+                <a href="https://myaadhaar.uidai.gov.in/CheckAadhaarStatus/en" target="_blank"> <button class="button">CHECK Now</button></a>
+                <p>LINKED BY SUMIT KUMAR</p>
+            </div>
+            
+            <br>
+            <h1>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ADHAR SECTOR❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</h1>
+            <br>
+
+            <div class="menu-item">
+                <img src="C:\Users\HP\OneDrive\圖片\Screenshots\Screenshot 2025-04-16 140400.png" alt="LOGIN AND RESULT DOWNLOAD LINK"> <h3>CLICK HERE TO LOGIN AND DOWNLOAD RESULT👎</h3>
+                <a href="https://sbteonline.bihar.gov.in/login/" target="_blank"> <button class="button">LOGIN OR DOWNLOAD Now</button></a>
+                <p>LINKED BY SUMIT KUMAR.</p>
+            </div>
+
+           
+        </div>
+    </div>
+
+    <!--footer section-->
+
+
+
+    <footer class="main-footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>About Us</h4>
+            <p>A cybercafe, also known as a net cafe, is a public place where people can use computers and the Internet for a fee, often for browsing, gaming, or using social media. Located at GPTekari, Gaya.</p>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="E:\index\contactpage.html">Contact</a></li>
+              <li><a href="#">Gallery</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Contact Info</h4>
+            <p>📍 G.P. Tekari, Gaya, Bihar</p>
+            <p>📞 +91 8789385119</p>
+            <p>✉️ sumitkumar73644@gmail.com</p>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#"><img src="facebook.jpg" alt="Facebook"></a>
+              <a href="https://www.instagram.com/sumit_yadav64119731/" target="_blank"><img src="insta.jpeg" alt="Instagram"></a>
+              <a href="#"><img src="E:\twiter" alt="Twitter"></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 SUMIT LINKS LIST. All rights reserved.</p>
+        </div>
+      </footer>
+      
+
+</body>
+</html>
